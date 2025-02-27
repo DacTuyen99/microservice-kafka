@@ -17,7 +17,7 @@ public class BookController {
     private final KafkaService kafkaService;
 
     @PostMapping
-    public ResponseEntity<Book> addBook(@RequestBody Book book){
+    public ResponseEntity<Book> addNewBook(@RequestBody Book book){
         return new ResponseEntity<>(bookService.addBook(book), HttpStatus.OK);
     }
     @GetMapping("/{id}")
