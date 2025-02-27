@@ -1,0 +1,19 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:broker:9092}
+    consumer:
+      group-id: ${KAFKA_GROUP_ID:default-group}
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: caotuyen1999vp1@gmail.com
+    password: llkiwmyfcfwgueqa
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+        transport:
+          protocol: smtp

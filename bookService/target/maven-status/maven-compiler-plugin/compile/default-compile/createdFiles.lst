@@ -1,0 +1,5 @@
+com\cdtuyen\bookService\controller\BookController.class
+com\cdtuyen\bookService\entity\Book.class
+com\cdtuyen\bookService\service\BookService.class
+com\cdtuyen\bookService\BookServiceApplication.class
+com\cdtuyen\bookService\repository\BookRepository.class

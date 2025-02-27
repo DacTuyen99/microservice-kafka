@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="employeeService" />
+        <module name="borrowingService" />
+        <module name="commonServer" />
+        <module name="bookService" />
+        <module name="notificationService" />
+        <module name="discoverServer" />
+        <module name="apiGetway" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apiGetway" options="-parameters" />
+      <module name="bookService" options="-parameters" />
+      <module name="borrowingService" options="-parameters" />
+      <module name="commonServer" options="-parameters" />
+      <module name="discoverServer" options="-parameters" />
+      <module name="employeeService" options="-parameters" />
+      <module name="notificationService" options="-parameters" />
+    </option>
+  </component>
+</project>
