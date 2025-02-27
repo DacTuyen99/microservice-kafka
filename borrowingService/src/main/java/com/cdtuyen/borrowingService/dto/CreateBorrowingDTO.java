@@ -1,0 +1,15 @@
+package com.cdtuyen.borrowingService.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.Date;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CreateBorrowingDTO {
+    private Long bookId;
+    private Long employeeId;
+}

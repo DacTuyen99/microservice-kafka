@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe9f79be-e2aa-4e80-b6bb-fd05543d297c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/auth/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/auth/AuthenticationResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/controller/DemoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/dto/ChangePassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/dto/RegisterUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/java/com/CDTsport/CDTsport/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/resources/db/migration/V1__Create_user_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/resources/db/migration/V2__Create_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CDTsport/src/main/resources/db/migration/V3__Insert_role_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiGetway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/cdtuyen/bookService/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/cdtuyen/bookService/dto/BookDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/cdtuyen/bookService/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/cdtuyen/bookService/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookService/src/main/java/com/cdtuyen/bookService/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/CommonErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/CommonException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/ErrorCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commonServer/src/main/java/com/cdtuyen/commonServer/exception/item/DataNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/dto/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/dto/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/repository/NotificationRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/java/mybatis/demomybatis/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/resources/mybatis/noticeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo-mybatis/src/main/resources/mybatis/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/profileservice/src/main/java/com/cdtuyen/profileservice/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/profileservice/src/main/java/com/cdtuyen/profileservice/entity/Profile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/profileservice/src/main/java/com/cdtuyen/profileservice/repository/ProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../microservices/profileservice/src/main/java/com/cdtuyen/profileservice/service/ProfileService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2pMylpcabJPcB77BW82ORYm8LnX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe9f79be-e2aa-4e80-b6bb-fd05543d297c" name="Changes" comment="" />
+      <created>1732590392797</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732590392797</updated>
+      <workItem from="1732590394330" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
