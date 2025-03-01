@@ -16,12 +16,8 @@ jobs:
       - name: SSH into EC2 and deploy
         run: |
           ssh -t -o StrictHostKeyChecking=no ubuntu@ec2-47-129-60-178.ap-southeast-1.compute.amazonaws.com << 'EOF'
-            sudo apt update
-            sudo apt upgrade -y
-            sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-            curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-            sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-            sudo apt update
-            sudo apt install docker-ce -y
-            sudo systemctl enable docker
+            cd microservice-kafka || exit
+            git pull origin master || exit
+            sudo docker-compose down
+            sudo docker-compose up -d
           EOF
